@@ -69,7 +69,7 @@ namespace cop4530 {
 			// operators
 			const List& operator=(const List &right);
 			List & operator=(List && right);
-			List & operator=(std::initializer_list<T> init);
+			List & operator=(std::initializer_list<T> init_list);
 			
 			// functions
 			int size() const;

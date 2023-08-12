@@ -63,7 +63,7 @@ namespace cop4530 {
 			explicit List(int elmts, const T& val = T{});
 			
 			List(const_iterator start, const_iterator end);
-			List(std::initializer_list<T> init);
+			List(std::initializer_list<T> init_list);
 			~List();
 			
 			// operators

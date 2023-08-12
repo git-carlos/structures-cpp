@@ -124,7 +124,7 @@ namespace cop4530 {
 	template <typename T>
 	std::ostream & operator<<(std::ostream &os, const List<T> & lst);
 	
-#include "List.cpp"
+#include "list.cpp"
 }
 
 #endif

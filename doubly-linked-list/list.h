@@ -51,7 +51,7 @@ namespace cop4530 {
 				iterator operator--(int);
 				
 			protected:
-				iterator(Node *token);
+				iterator(Node *sample);
 				friend class List<T>;
 		};
 		

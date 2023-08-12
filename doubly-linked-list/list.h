@@ -34,7 +34,7 @@ namespace cop4530 {
 			protected:
 				Node *token;
 				T & retrieve() const;
-				const_iterator(Node *token);
+				const_iterator(Node *sample);
 				
 				friend class List<T>;
 		};

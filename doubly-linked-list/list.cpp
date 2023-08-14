@@ -118,6 +118,10 @@ List<T>::iterator::iterator(Node *sample) {
 	this->token = sample;
 }
 
+/*
+* list defintions
+*/
+
 template <class T>
 List<T>::List() {
 	init();
